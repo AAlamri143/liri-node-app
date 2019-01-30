@@ -24,6 +24,12 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 * A song search with no song chosen will default to "The Sign" by Ace of Base
 
+## Examples:
+/Users/cast/Documents/H:W/My_Homeworks/8/liri-node-app/images/spotify.png
+/Users/cast/Documents/H:W/My_Homeworks/8/liri-node-app/images/ace.png
+
+
+
 ## A search for a movie returns: 
 * Title of the movie
 * Year the movie came out
@@ -41,3 +47,4 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
+# Examples
