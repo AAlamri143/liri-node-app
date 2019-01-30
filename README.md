@@ -39,7 +39,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * Plot of the movie
 * Actors in the movie
 
-* A movie search with no title will output data for the movie 'Mr. Nobody
+* A movie search with no title will output data for the movie 'Mr. Nobody'
 
 ## Examples:
 ![GitHub Logo](/images/movie.png)
@@ -53,3 +53,10 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ## Examples:
 ![GitHub Logo](/images/event.png)
+
+# A search for "do-what-it-says"
+The command of "do-what-it-says" runs the string in "random.txt"
+
+## Example: 
+![GitHub Logo](/images/do.png)
+

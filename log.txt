@@ -34,3 +34,6 @@
  • Command: "concert-this"  Search: "little,big,town"  (Jan 30, 2019 12:57 AM)
  • Command: "spotify-this-song"  Search: "None"  (Jan 30, 2019 1:07 AM)
  • Command: "movie-this"  Search: "None"  (Jan 30, 2019 1:13 AM)
+ • Command: "do-what-it-says"  Search: "None"  (Jan 30, 2019 1:30 AM)
+ • Command: "do-what-it-says"  Search: "None"  (Jan 30, 2019 1:30 AM)
+ • Command: "do-what-it-says"  Search: "None"  (Jan 30, 2019 1:30 AM)
