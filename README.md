@@ -1,7 +1,6 @@
 # Liri-node-app
 
-Overview
-
+## Overview
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. It is a command line node app that takes in parameters and gives you back data.
 
 # Liri can provide the user information on:
@@ -17,7 +16,6 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
         * do-what-it-says
         
 # Search results return
-
 ## A search for a song returns: 
 * Artist(s)
 * The song's name

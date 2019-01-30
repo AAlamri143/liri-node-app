@@ -1,4 +1,4 @@
-console.log('"✎ spotify keys has loaded!"');
+console.log('"spotify keys has loaded!"');
 
 exports.spotify = {
     id: "4feef4907557448fa4c1cdef4222bc4f",

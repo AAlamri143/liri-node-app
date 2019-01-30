@@ -32,12 +32,12 @@ function spotifySearch() {
         return console.log('Error occurred: ' + err);
     }
 
-      console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" M U S I C ") + colors.underline.yellow.bold("))-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n"));
-      console.log(colors.rainbow("       " + data.tracks.items[0].artists[0].name) + colors.rainbow(" - < " + data.tracks.items[0].name + " >\n"));
+      console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" M U S I C ") + colors.underline.yellow.bold("))-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆"));
+      console.log(colors.rainbow("                   " + data.tracks.items[0].artists[0].name) + colors.rainbow(" - < " + data.tracks.items[0].name + " >"));
       console.log(colors.underline.white.bold("Artist:") + colors.white.bold(" " + data.tracks.items[0].artists[0].name));
       console.log(colors.underline.white.bold("Album Name:") + colors.white.bold(" " + data.tracks.items[0].album.name));
       console.log(colors.underline.white.bold("preview-link:") + " " + colors.underline.cyan(data.tracks.items[0].album.external_urls.spotify));
-      console.log(colors.underline.yellow.bold("\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
+      console.log(colors.underline.yellow.bold("∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
 
     });
 }
@@ -47,11 +47,11 @@ function spotifySearch() {
 function bitSearch() {
   axios.get(bitUrl).then(
     function (response) {
-    console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" E V E N T ") + colors.underline.yellow.bold("))-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n"));
-    console.log(colors.rainbow("            " + response.data[0].venue.name) +"\n");
+    console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" E V E N T ") + colors.underline.yellow.bold("))-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆"));
+    console.log(colors.rainbow("            " + response.data[0].venue.name));
     console.log(colors.underline.bold("Name of the Venue:") + " " + colors.bold(response.data[0].venue.name));
     console.log(colors.underline.bold("Date of the Event:") + " " + colors.bold(moment(response.data[0].datetime).format('L') + " (MM/DD/YYY)"));
-    console.log(colors.underline.yellow.bold("\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
+    console.log(colors.underline.yellow.bold("∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
   }
   );
 }
@@ -61,15 +61,15 @@ function bitSearch() {
 function omdbSearch(){
   axios.get(omdbUrl).then(
       function (response){
-      console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" M O V I E ") + colors.underline.yellow.bold(")-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n"));
-      console.log(colors.rainbow("                " + response.data.Title) + colors.rainbow(" (" + response.data.Year + ")\n"));
+      console.log(colors.underline.yellow.bold("\n\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆-((") + colors.white.bold(" M O V I E ") + colors.underline.yellow.bold(")-∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆"));
+      console.log(colors.rainbow("                    " + response.data.Title) + colors.rainbow(" (" + response.data.Year + ")"));
       console.log(colors.underline.bold("IMDB Rating:") + colors.bold("  " + response.data.imdbRating));
       console.log(colors.underline.bold("Rotten Tomatoes Rating:") + colors.bold("  " + response.data.Ratings[1].Value));
       console.log(colors.underline.bold("Country:") + colors.bold("  " + response.data.Country));
       console.log(colors.underline.bold("Language:") + colors.bold("  " + response.data.Language));
       console.log(colors.underline.bold("Actors:") + "  " + colors.bold(response.data.Actors));
       console.log(colors.underline.bold("Plot:") + " " + colors.bold(response.data.Plot));
-      console.log(colors.underline.yellow.bold("\n∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
+      console.log(colors.underline.yellow.bold("∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆∆\n\n"));
 
     }
   );
