@@ -29,7 +29,6 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 ![GitHub Logo](/images/ace.png)
 
 
-
 ## A search for a movie returns: 
 * Title of the movie
 * Year the movie came out
@@ -42,9 +41,15 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 * A movie search with no title will output data for the movie 'Mr. Nobody
 
+## Examples:
+![GitHub Logo](/images/movie.png)
+![GitHub Logo](/images/no.png)
+
+
 ## A search for a Bands in Town Artist Events: 
 * Name of the venue
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-# Examples
+## Examples:
+![GitHub Logo](/images/event.png)
