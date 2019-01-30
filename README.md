@@ -51,7 +51,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-## Examples:
+## Example:
 ![GitHub Logo](/images/event.png)
 
 # A search for "do-what-it-says"
@@ -60,3 +60,4 @@ The command of "do-what-it-says" runs the string in "random.txt"
 ## Example: 
 ![GitHub Logo](/images/do.png)
 
+Thanks!
